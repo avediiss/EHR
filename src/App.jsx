@@ -526,6 +526,18 @@ function App() {
              
             </div>
 
+
+            <div className="form-group">
+                <label htmlFor="email">Employee Email:</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
+                />
+              </div>
+            
             <div className="form-group">
               <label htmlFor="phonePreset">Phone Number:</label>
               <div style={{ display: "flex", alignItems: "center" }}>
